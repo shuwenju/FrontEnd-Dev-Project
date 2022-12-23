@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="RegistrationPages.css" type=text/css>
+
+</head>
+<body>
+<div class="top-wr">
+    <!--Create inner div within top bar-->
+    <ul class="navleft">
+      <li><a href="#LIFESTYLE" target="_blank">LIFESTYLE</a></li>
+      <li><a href="#FASHION" target="_blank">FASHION</a></li>
+      <li><a href="#DISCOVER" target="_blank">DISCOVER</a></li>
+    </ul>
+
+    <a href="index.html">
+    <img id="logo" src="images/logo.png" alt="logo"/></a>
+
+    <ul class="navright">
+      <li><a href="#EVENTS" target="_blank">EVENTS</a></li>
+      <li><a href="#CONTACTUS" target="_blank">CONTACT US</a></li>
+      <li><a href="#ACCOUNT" target="_blank">ACCOUNT</a></li>
+    </ul>
+  </div>
+
+
+
+
+    <div class ="divtitle"><p id="title">Contact us</p> </div>
+
+    <div class="form">
+        <form action="#" method="post">
+            <table class="FormbyClient">
+                <tr class="tr">
+                    <td class="td1">First name</td>
+                    <td class="td2"><input type="text" class="boxes" name="FirstName" id="FirstName" /></td>
+                    <td class="td3"><span class="ErrorPrompt" id="FirstNameError"></span></td>
+                </tr>
+                <tr class="tr">
+                    <td class="td1">Last name</td>
+                    <td class="td2"><input type="text" class="boxes" name="LastName" id="LastName" /></td>    
+                    <td class="td3"><span class="ErrorPrompt" id="LastNameError"></span></td>
+                </tr>
+                <tr class="tr">
+                    <td class="td1">E-mail</td>
+                    <td class="td2"><input type="text" class="boxes" name="email" id="email" /></td>
+                    <td class="td3"><span class="ErrorPrompt" id="EmailWrongFormat"></span></td>
+                </tr>
+                <tr class="tr"> 
+                    <td class="td1">Phone number</td>
+                    <td class="td2"><input type="text" class="boxes" name="Phone" id="phone" /></td>
+                    <td class="td3"><span class="ErrorPrompt" id="PhoneFormatError"></td>
+                </tr>
+            </table>
+            <div class="buttonsdiv">
+                    <!--CHANGE TYPE SUBMIT TO BUTTON TYPE ---- <input type="submit" value="Send" /> -->
+                    <input type="button" class="button" value="Send" id="submitButton" />
+                    <input type="reset" class="button" value="Clear" id="clearButton" />
+            </div>
+        </form>
+    </div>
+
+   
+</body>
+</html>
